@@ -1,0 +1,10 @@
+// Make sure to wrap your app in a <ThirdwebProvider>
+import { ThirdwebProvider } from "@thirdweb/react";
+
+export default function App() {
+  return (
+    <ThirdwebProvider>
+      <AppContent />
+    </ThirdwebProvider>
+  );
+}
